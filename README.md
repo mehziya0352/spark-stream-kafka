@@ -22,17 +22,17 @@ Each user gets **their own ports** automatically.
 4. **Start your stack**
    $ ./start.sh
 
-   **Sample Output**
-* Creating new env file for user: ubuntu
-* Starting Docker Compose...
+**Sample Output**
+Creating new env file for user: ubuntu
+Starting Docker Compose...
 
- **Ports for ubuntu** 
-* ZOOKEEPER_PORT=23456
-* KAFKA_PORT=34567
-* SPARK_UI_PORT=45678
-* SPARK_MASTER_PORT=56789
-* FLINK_UI_PORT=60005
-* KAFKA_UI_PORT=61010
+**Ports for ubuntu** 
+ZOOKEEPER_PORT=23456
+KAFKA_PORT=34567
+SPARK_UI_PORT=45678
+SPARK_MASTER_PORT=56789
+FLINK_UI_PORT=60005
+KAFKA_UI_PORT=61010
 
 
    This will:
