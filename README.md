@@ -33,10 +33,12 @@ SPARK_UI_PORT=45678
 SPARK_MASTER_PORT=56789
 FLINK_UI_PORT=60005
 KAFKA_UI_PORT=61010
-
-
-   This will:
-
+   
+This will:
    * Create `.env_<username>` with your ports (first time only)
    * Start the containers using those ports
 
+**Access Services**
+* Kafka UI → http://<server-ip>:<KAFKA_UI_PORT>
+* Spark UI → http://<server-ip>:<SPARK_UI_PORT>
+* Flink UI → http://<server-ip>:<FLINK_UI_PORT>
