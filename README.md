@@ -13,14 +13,27 @@ Each user gets **their own ports** automatically.
 ## Steps to Use
 
 1. **Clone the project**
-   $ git clone https://github.com/<your-repo>.git
-   $ cd <your-repo>
+   $ git clone https://github.com/<repo-name>.git
+   $ cd <repo-name>
 
 2. **Make the script executable**
    $ chmod +x start.sh
    
 4. **Start your stack**
    $ ./start.sh
+
+   **Sample Output**
+Creating new env file for user: ubuntu
+Starting Docker Compose...
+
+===== Ports for ubuntu =====
+ZOOKEEPER_PORT=23456
+KAFKA_PORT=34567
+SPARK_UI_PORT=45678
+SPARK_MASTER_PORT=56789
+FLINK_UI_PORT=60005
+KAFKA_UI_PORT=61010
+===========================
 
    This will:
 
